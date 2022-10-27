@@ -15,8 +15,8 @@
 #
 ## Installation
 #
-### 1) copy the repository
-### 2) in the py file, change the path to the button images (lines 345, 346, 354)
+### 1) Сopy the repository
+### 2) Шn the py file, change the path to the button images (lines 345, 346, 354)
 ### 3) That's it! Now just start the game and enjoy
 
 ---
