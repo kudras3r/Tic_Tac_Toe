@@ -162,8 +162,7 @@ def next_PCturn(row, column):
 
     '''Accepting the player's turn and proceeding to the PC's turn'''
 
-    global char
-    
+    global char   
     
     if buttons[row][column]['text'] == '':                   
 
@@ -229,8 +228,7 @@ def next_turn(row, column):
 
     '''Accepting player1's turn and proceeding to player2's turn'''
     
-    global char
-    
+    global char   
     
     if buttons[row][column]['text'] == '':
         
@@ -342,8 +340,8 @@ window.iconphoto(False, icon)
 window.resizable(False, False)
 
 
-img1 = PhotoImage(file = r"G:/Python/gui_project/restart.png")
-img2 = PhotoImage(file = r"G:/Python/gui_project/backbtn.png")
+img1 = PhotoImage(file = r"restart.png")
+img2 = PhotoImage(file = r"backbtn.png")
 
 def run():
 
@@ -351,7 +349,7 @@ def run():
     
     # Adding a background
     canvas = Canvas(window, height=550, width=450)
-    img = PhotoImage(file = 'G:/Python/gui_project/backg.png') 
+    img = PhotoImage(file = 'backg.png') 
     image = canvas.create_image(0, 0, anchor='nw',image=img)
     canvas.place(anchor= 'center', x= 225, y= 275)
 
